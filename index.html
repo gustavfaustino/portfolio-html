@@ -21,7 +21,7 @@
     <header>
       <div class="container">
         <div class="header">
-          <a href="/" class="logo">
+          <a href="#" class="logo">
             <img
               src="assets/icons/logo_icon.svg"
               alt="Logo de gato poligonal com óculos escuros"
@@ -207,14 +207,21 @@
             <ul>
               <li>
                 <a
+                  href="https://www.instagram.com/gustav.faustino107/"
+                  target="_blank"
+                  ><img src="assets/icons/instagram-icon.svg" alt="Instagram"
+                /></a>
+              </li>
+              <li>
+                <a
                   href="https://www.linkedin.com/in/gustavogfoliveira/"
                   target="_blank"
-                  ><img src="assets/icons/linkedin.svg" alt="LinkedIn"
+                  ><img src="assets/icons/linkedin-icon.svg" alt="LinkedIn"
                 /></a>
               </li>
               <li>
                 <a href="https://github.com/gustavfaustino" target="_blank"
-                  ><img src="assets/icons/github.svg" alt="GitHub"
+                  ><img src="assets/icons/github-icon.svg" alt="GitHub"
                 /></a>
               </li>
             </ul>
@@ -225,5 +232,16 @@
         </div>
       </div>
     </footer>
+
+    <script>
+      const botaoMenu = document.querySelector('header button');
+      const menu = document.querySelector('header ul');
+
+      botaoMenu.addEventListener('click', () => {
+        menu.classList.toggle('menu-aberto');
+      });
+    </script>
+  </body>
+</html>
   </body>
 </html>
